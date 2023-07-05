@@ -1,0 +1,22 @@
+{
+  "name": "js-primer",
+  "version": "1.0.0",
+  "description": "experimenting and testing js stuff",
+  "main": "arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razvanpiticas/js-primer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razvanpiticas/js-primer/issues"
+  },
+  "homepage": "https://github.com/razvanpiticas/js-primer#readme",
+  "dependencies": {
+    "ethereum-cryptography": "^2.0.0"
+  }
+}
