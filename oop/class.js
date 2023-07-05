@@ -1,15 +1,12 @@
-//#3 finally C# like syntax with normal classes and methods (syntactic sugar: same functionallity, normal syntax)
-
 class Wallet {
 
-    // clean diferentiation from regular functions using constructor keyword <3
+    // clean diferentiation from regular functions using constructor keyword
     constructor(address, balance){
         this.address = address;
         this._balance = balance;
     }
 
-    // methods defined within the class, not all over the place <3
-    // using that usless "function" keyword in here would actually crash the program. <3
+    // methods defined within the class, not all over the place
     getOwner() { 
         return this.address; 
     }
@@ -19,6 +16,7 @@ class Wallet {
     }
 
     // encapsulation through getters and setters <3. (although we could do without the parenthesis)
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
     get balance(){
         return this._balance;
     }
@@ -33,10 +31,8 @@ class Wallet {
 const wallet1 = new Wallet("0x123", 101010);
 console.log(wallet1);
 
-// it's important to mention that this is just syntactic sugar and prototype prop can still be used on the fly to mess around with the objects.
 
 // Inheritance
-
 class MultiSigWallet extends Wallet {               // extends like in java
     constructor(address, secondAddress, balance){
         super(address, balance);                    // super like in java
