@@ -15,7 +15,7 @@ node oop/literal.js
 node oop/ctor.js
 node oop/class.js
 ```
-5. In order to run the ctor.html file that runs ctor.js and see the results in the browser's console so that you can browse the object properties you need to install live-server by running this command:
+5. In order to run the index.html file that runs ctor.js and see the results in the browser's console so that you can browse the object properties you need to install live-server by running this command:
 ```
 npm install -g live-server
 ```
